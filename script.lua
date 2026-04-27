@@ -28,6 +28,26 @@ local LobbyRoutes = {
 
 local MapRoutes = {
     -- FÁBRICA (POSIÇÕES NOVAS SUBSTITUÍDAS)
+     mapa_novo_pos1 = {
+        spawn = Vector3.new(427.19, 47.14, -4057.47),
+        route = {
+            Vector3.new(427.19, 47.14, -4057.47), Vector3.new(424.28, 47.14, -4050.53), Vector3.new(421.24, 43.23, -4035.12),
+            Vector3.new(420.70, 37.14, -4021.99), Vector3.new(417.06, 34.94, -4009.90), Vector3.new(410.80, 34.94, -4002.53),
+            Vector3.new(404.58, 34.94, -3996.32), Vector3.new(398.30, 34.94, -3989.41), Vector3.new(392.13, 34.94, -3979.21),
+            Vector3.new(391.74, 34.94, -3968.75), Vector3.new(392.15, 35.88, -3946.00), Vector3.new(390.18, 43.05, -3930.63),
+            Vector3.new(391.93, 47.14, -3920.66), Vector3.new(400.38, 47.14, -3908.81)
+        }
+    },
+    mapa_novo_pos2 = {
+        spawn = Vector3.new(400.50, 47.14, -3908.70),
+        route = {
+            Vector3.new(400.50, 47.14, -3908.70), Vector3.new(395.73, 47.14, -3911.59), Vector3.new(392.14, 43.51, -3930.30),
+            Vector3.new(391.42, 37.04, -3944.06), Vector3.new(393.86, 34.94, -3955.62), Vector3.new(406.39, 34.94, -3972.65),
+            Vector3.new(416.83, 34.94, -3986.13), Vector3.new(417.67, 34.94, -4005.63), Vector3.new(420.17, 39.26, -4027.18),
+            Vector3.new(424.38, 46.76, -4043.31), Vector3.new(427.55, 47.14, -4057.98)
+        }
+    },
+
     fabrica_pos1 = { 
         spawn = Vector3.new(402.53, 48.23, -8990.85), 
         route = { 
